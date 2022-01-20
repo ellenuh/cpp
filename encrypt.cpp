@@ -8,7 +8,7 @@ int main(){
     cin>>key;
     cin>>s;
     for(i=0;i<s.size();i++){
-        t+=(s[i]-'A'+key)%26+'A';
+        t+=(s[i]-'A'+key)%26;
     }
     cout<<t<<'\n';
     return 0;
